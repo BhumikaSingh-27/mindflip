@@ -88,7 +88,7 @@ function App() {
         <button onClick={()=>suffleCards(index)}>New Game</button>
       </div>
 
-      {score.current === 42 && <div className="notify">Start the new game</div>}
+      {score.current === 42 && <div className="notify">Start the new game!</div>}
       <div className="card-grid">
         {cards.map((card) => (
           <Card
