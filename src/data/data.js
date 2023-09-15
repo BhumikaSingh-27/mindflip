@@ -3,7 +3,7 @@ const cardData = [
   { src: "/img/pen.png", matched: false },
   //   { src: "/img/cover.png", matched: false },
   { src: "/img/cat.png", matched: false },
-  { src: "/img/dog.png", matched: false },
+  { src: "/img/Dog.png", matched: false },
   { src: "/img/camel.png", matched: false },
   { src: "/img/rabbit.png", matched: false },
   { src: "/img/eraser.png", matched: false },
