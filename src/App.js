@@ -16,7 +16,6 @@ function App() {
 
   const suffleCards = (index) => {
     const shuffledData  = cardData.slice(0+index, 6+index)
-    console.log(shuffledData)
     const shuffledCard = [...shuffledData, ...shuffledData]
       .sort(() => Math.random() - 0.5)
       .map((card) => ({ ...card, id: Math.random() }));
